@@ -35,6 +35,9 @@ Every page has its own copy of the header, menu and footer. If you change one, m
 
 In the menu, the link for the page you're on has `aria-current="page"`, which highlights it. On each page, that attribute belongs on that page's own link.
 
+### Google Analytics
+Every page loads Google Analytics (ID `G-KSK9N3DKMB`) at the top of its `<head>`. If you add a new page, copy that snippet into it so its visits are counted.
+
 ### Posting an upcoming event
 In `docs/news.html`, the **Upcoming Events** section has instructions in a comment. To post events:
 
