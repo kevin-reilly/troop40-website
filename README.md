@@ -38,6 +38,11 @@ In the menu, the link for the page you're on has `aria-current="page"`, which hi
 ### Google Analytics
 Every page loads Google Analytics (ID `G-KSK9N3DKMB`) at the top of its `<head>`. If you add a new page, copy that snippet into it so its visits are counted.
 
+### Search engines
+- Each page has a title, description and a "canonical" link that help Google understand and rank it.
+- `docs/sitemap.xml` lists every page. If you add a page, add it to the sitemap too.
+- The home page includes structured data describing the troop (ages, council, sponsor and so on). Update it if any of those details change.
+
 ### Posting an upcoming event
 In `docs/news.html`, the **Upcoming Events** section has instructions in a comment. To post events:
 
